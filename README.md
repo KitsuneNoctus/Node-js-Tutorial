@@ -6,13 +6,13 @@ The [m2 File](m2.js) is the side file for this
 
 ##### Install Node
 - Update terminal first
-                $ brew update
+    $ brew update
 - Install Node
-                $ brew install node
+    $ brew install node
 - Test / Check Version
-                $ node -v
+    $ node -v
 - Update
-                $ brew update
-                $ brew upgrade node
+    $ brew update
+    $ brew upgrade node
 - Uninstall
-                $ brew uninstall node
+    $ brew uninstall node
