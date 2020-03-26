@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/KitsuneNoctus/Node-js-Tutorial/issues"
   },
-  "homepage": "https://github.com/KitsuneNoctus/Node-js-Tutorial#readme"
+  "homepage": "https://github.com/KitsuneNoctus/Node-js-Tutorial#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
 }
