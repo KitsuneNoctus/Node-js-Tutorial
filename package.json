@@ -20,6 +20,7 @@
   "homepage": "https://github.com/KitsuneNoctus/Node-js-Tutorial#readme",
   "dependencies": {
     "esm": "^3.2.25",
+    "express": "github:expressjs/express",
     "lodash": "^4.17.15"
   }
 }
