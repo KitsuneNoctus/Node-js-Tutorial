@@ -5,7 +5,7 @@ The [m1 File](m1.js) is the primary tutorial file
 The [m2 File](m2.js) is the side file for this
 
 ##### Install Node
-- Update terminal first
+- Update Homebrew first
 
     $ brew update
 
