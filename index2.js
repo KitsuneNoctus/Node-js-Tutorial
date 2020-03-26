@@ -1,3 +1,5 @@
-const index = require('./index.js');
+require('./index.js')();
 
-console.log(index);
+require('./index.js')();
+
+require('./index.js')();
