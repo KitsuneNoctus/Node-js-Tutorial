@@ -5,7 +5,10 @@
   "description": "",
   "main": "m1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-1": "echo \"Error: no test specified\" && exit 1",
+    "start-error": "node -r esm server.js",
+    "start": "node server.js",
+    "prod-start": "NODE_ENV=production node server.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,8 @@
     "esm": "^3.2.25",
     "express": "github:expressjs/express",
     "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
   }
 }

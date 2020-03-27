@@ -25,3 +25,12 @@ The [m2 File](m2.js) is the side file for this
 - Uninstall
 
     $ brew uninstall node
+
+##### Packages
+- lodash
+$npm i lodash
+
+- express 
+$npm  expressjs/express 
+
+> This gets express directly from the Gitgub repository.
