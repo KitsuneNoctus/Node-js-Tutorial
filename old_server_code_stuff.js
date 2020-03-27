@@ -44,3 +44,37 @@ server.get('/favicon.*', (req, requested) => {
 // process.stdin.resume();
 
 // console.log('Hello There')
+
+
+//============================Part 3===================
+// child_process
+// https://nodejs.org/docs/latest/api/child_process.html#child_process_child_process_exec_command_options_callback
+import { exec } from 'child_process';
+
+import utils from 'util';
+//Error first call back pattern
+// exec('ls /', (err, stdout, stderr) => {
+//     //Makes it pop up to user
+//     if (err){
+//         process.exit(1);
+//         //can even have if statements for specific errors
+//         // if (err === )
+//     }
+//     console.log(stdout);
+// });
+
+//Better way? More control
+//Promise based api
+const execP = utils.promisify(exec);
+
+const main = async () => {
+    try {
+        const { stdout, stderr }  = await execP('ls /');
+
+        console.log(stdout);
+    } catch (error) {
+        process.exit(1);
+    }
+}
+
+main();
