@@ -78,3 +78,43 @@ const main = async () => {
 }
 
 main();
+
+
+// ===================== Part 4 ==================
+// EM
+
+import EventEmitter from 'events';
+
+const evenEmitter = new EventEmitter()
+
+evenEmitter.on('change', () => {
+    console.log('Something has changed');
+});
+
+setInterval(() => {
+    evenEmitter.emit('change');
+}, 1000);
+
+//===============Part 5 / go over some stuff ============
+// streams
+
+/* Streams are an array of data over time,
+so that way you program doesn eat a whole file 
+in one go, especially when large.
+It does it chuncks at a time. */
+
+//zip, crypto, etc.
+
+// Most interesting is transform stream
+//read, write, transform
+
+//[1,2,3,4]
+
+//===================Some notes========
+// scaling
+
+//cluster/pm2
+//Take a look at the above for running Node application in production
+//Its wrapper around cluster module
+
+//html/express

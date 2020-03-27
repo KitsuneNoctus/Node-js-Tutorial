@@ -1,13 +1,7 @@
-// EM
+const a = [1,2,3];
 
-import EventEmitter from 'events';
-
-const evenEmitter = new EventEmitter()
-
-evenEmitter.on('change', () => {
-    console.log('Something has changed');
+const b = a.map(e => {
+    return e + e;
 });
 
-evenEmitter.emit('change');
-evenEmitter.emit('change');
-evenEmitter.emit('change');
+console.log(b);
