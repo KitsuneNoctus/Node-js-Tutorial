@@ -1,3 +1,4 @@
+// =============================Part 1===========================
 // import http from 'http';
 import express from 'express';
 
@@ -38,3 +39,8 @@ server.get('/favicon.*', (req, requested) => {
 
 // //Its just listeneing, does nothing for now
 // server.listen(3000);
+
+//=====================Part 2========
+// process.stdin.resume();
+
+// console.log('Hello There')

@@ -7,7 +7,7 @@
   "scripts": {
     "test-1": "echo \"Error: no test specified\" && exit 1",
     "start-error": "node -r esm server.js",
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "prod-start": "NODE_ENV=production node server.js",
     "check": "eslint"
   },
@@ -27,6 +27,7 @@
     "express": "github:expressjs/express"
   },
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2"
   }
 }
