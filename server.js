@@ -1,3 +1,8 @@
-console.log('Hello Node')
+import http from 'http';
 
-//Web server
+const server = http.createServer();
+
+
+
+//Its just listeneing, does nothing for now
+server.listen(3000);

@@ -28,9 +28,17 @@ The [m2 File](m2.js) is the side file for this
 
 ##### Packages
 - lodash
-$npm i lodash
+    $npm i lodash
 
 - express 
-$npm  expressjs/express 
+    $ npm  expressjs/express 
 
 > This gets express directly from the Gitgub repository.
+
+    $ npm i
+> To install all dependencies
+
+<!-- - eslint
+$npm i -D eslint -->
+
+<!-- > At certain point? Researching... -->
